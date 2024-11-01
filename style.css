@@ -1,0 +1,225 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: #333;
+    padding: 16px;
+    z-index: 10;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: white;
+    padding: 8px;
+}
+
+header nav a:hover {
+    background-color: tomato;
+    transition: 1s;
+}
+
+.grupo {
+    height: 100vh;
+    padding-top: 80px; 
+    position: relative;
+}
+
+#vermelho {
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+
+#vermelho h1 {
+    position: absolute;
+    top: 10vh;
+    margin-right: 80vh;
+    color: white;
+    font-size: 5rem;
+    
+    
+
+}
+
+#vermelho p {
+    position: absolute;
+   
+    left: 10%;
+    color: white;
+    font-size: 2rem;
+    width: 20%; 
+}
+
+#vermelho img {
+    width: 90vh;
+    height: 40vh;
+    margin-right: 20px;
+}
+
+#verde {
+    background-color: rgb(5, 105, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+#verde h1 {
+    position: absolute;
+    top: 10vh;
+    margin-right: 80vh;
+    color: white;
+    font-size: 5rem;
+    
+    
+
+}
+
+#verde p {
+    position: absolute;
+   
+    left: 10%;
+    color: white;
+    font-size: 2rem;
+    width: 20%;
+}
+
+#verde img {
+    width: 90vh;
+    height: 70vh;
+    margin-right: 20px;
+}
+
+#azul {
+    background-color: rgb(2, 19, 70);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+#azul h1 {
+    position: absolute;
+    top: 10vh;
+    margin-right: 80vh;
+    color: white;
+    font-size: 5rem;
+    
+    
+
+}
+
+#azul p {
+    position: absolute;
+   
+    left: 10%;
+    color: white;
+    font-size: 2rem;
+    width: 20%;
+}
+
+#azul img {
+    width: 90vh;
+    height: 70vh;
+    margin-right: 20px;
+}
+
+#amarelo {
+    background-color: rgb(138, 115, 1);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+#amarelo h1 {
+    position: absolute;
+    top: 10vh;
+    margin-right: 80vh;
+    color: white;
+    font-size: 5rem;
+    
+    
+
+}
+
+#amarelo p {
+    position: absolute;
+   
+    left: 10%;
+    color: white;
+    font-size: 2rem;
+    width: 20%;
+}
+
+#amarelo img {
+    width: 90vh;
+    height: 70vh;
+    margin-right: 20px;
+}
+
+#roxo {
+    background-color: rgb(37, 0, 60);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+#roxo h1 {
+    position: absolute;
+    top: 10vh;
+    margin-right: 80vh;
+    color: white;
+    font-size: 5rem;
+    
+    
+
+}
+
+#roxo p {
+    position: absolute;
+   
+    left: 10%;
+    color: white;
+    font-size: 2rem;
+    width: 20%;
+}
+
+#roxo img {
+    width: 60vh;
+    height: 70vh;
+    margin-right: 20px;
+}
